@@ -51,7 +51,7 @@ Dataset obsahuje tri hlavné tabuľky:
 
 Surové dáta sú usporiadané v relačnom modeli, ktorý je znázornený na entitno-relačnom diagrame:
 
-![ERD diagram](ERD.png)
+![ERD diagram](img/ERD.png)
 
 *Obrázok 1: Entitno-relačná schéma zdrojových dát*
 
@@ -63,7 +63,7 @@ Surové dáta sú usporiadané v relačnom modeli, ktorý je znázornený na ent
 
 Navrhnutá schéma hviezdy (Star Schema) obsahuje 1 faktovú tabuľku **FACT_FOOD_TRENDS** prepojenú s 4 dimenziami:
 
-![Star Schema](Star_schema.png)
+![Star Schema](img/Star_schema.png)
 
 *Obrázok 2: Schéma hviezdy pre Food Trends dataset*
 
@@ -316,7 +316,7 @@ WHERE POPULARITY_VALUE IS NOT NULL;
 
 Dashboard obsahuje 5 vizualizácií poskytujúcich komplexný prehľad o kľúčových metrikách a trendoch v popularite potravín.
 
-![Dashboard](Dashboard.png)
+![Dashboard](img/Dashboard.png)
 
 *Obrázok 3: Dashboard s vizualizáciami food trends*
 
